@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    color: aliceblue;
+    font-family: Roboto;
+}
+h1 {
+    background-color: #2B4865;
+    background: -webkit-linear-gradient(to right,#8FE3CF,#256D85,#2B4865);
+    background: linear-gradient(to right,#8FE3CF,#256D85,#2B4865);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.container {
+    height: 100%;
+    display: flex;
+}
+.toolbar {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 210px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #002B5B;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+}
+.toolbar * {
+    margin-bottom: 6px;
+    display: block;
+    text-decoration: none;
+}
+.toolbar label {
+    font-size: 12px;
+}
+.toolbar button {
+    background-color: #8FE3CF;
+    border: none;
+    border-radius: 4px;
+    color: aliceblue;
+    padding: 12px;
+    cursor: pointer;
+}
